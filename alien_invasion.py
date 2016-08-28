@@ -12,6 +12,8 @@ def run_game():
         (ai_settings.screen_width,ai_settings.screen_height))
     pygame.display.set_caption(ai_settings.game_name)
 
+    bg_color = ai_settings.bg_color
+
     # Make a ship.
     ship = Ship(ai_settings, screen)
 
